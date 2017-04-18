@@ -1,9 +1,14 @@
-# api documentation for  [grunt-ngmin (v0.0.3)](https://github.com/btford/grunt-ngmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-ngmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-ngmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin)
+# npmdoc-grunt-ngmin
+
+#### api documentation for  [grunt-ngmin (v0.0.3)](https://github.com/btford/grunt-ngmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-ngmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-ngmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin)
+
 #### Grunt task for minifying AngularJS projects
 
-[![NPM](https://nodei.co/npm/grunt-ngmin.png?downloads=true)](https://www.npmjs.com/package/grunt-ngmin)
+[![NPM](https://nodei.co/npm/grunt-ngmin.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-ngmin)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-ngmin/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-grunt-ngmin_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-ngmin/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-grunt-ngmin/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-ngmin/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-ngmin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-ngmin/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-grunt-ngmin/build/screenCapture.npmPackageListing.svg)
 
@@ -51,17 +56,14 @@
     "main": "Gruntfile.js",
     "maintainers": [
         {
-            "name": "btford",
-            "email": "briantford@gmail.com"
+            "name": "btford"
         },
         {
-            "name": "geddski",
-            "email": "heygeddski@gmail.com"
+            "name": "geddski"
         }
     ],
     "name": "grunt-ngmin",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/btford/grunt-ngmin.git"
@@ -72,16 +74,6 @@
     "version": "0.0.3"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module grunt-ngmin](#apidoc.module.grunt-ngmin)
-
-
-
-# <a name="apidoc.module.grunt-ngmin"></a>[module grunt-ngmin](#apidoc.module.grunt-ngmin)
 
 
 
