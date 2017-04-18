@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/btford/grunt-ngmin#readme"
-
-    >grunt-ngmin (v0.0.3)</a>
+    <a href="https://github.com/btford/grunt-ngmin#readme">grunt-ngmin (v0.0.3)</a>
 </h1>
 <h4>Grunt task for minifying AngularJS projects</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-ngmin">module grunt-ngmin</a><ol>
 
@@ -86,51 +79,51 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">grunt-ngmin = function (grunt) {
-  grunt.loadNpmTasks(&#x27;grunt-contrib-clean&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-mocha-cli&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-contrib-jshint&#x27;);
-  grunt.loadNpmTasks(&#x27;grunt-release&#x27;);
-  grunt.loadTasks(&#x27;tasks&#x27;);
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-mocha-cli');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-release');
+  grunt.loadTasks('tasks');
 
   grunt.initConfig({
     jshint: {
       options: {
-        jshintrc: &#x27;.jshintrc&#x27;
+        jshintrc: '.jshintrc'
       },
       all: [
-        &#x27;Gruntfile.js&#x27;,
-        &#x27;lib/*.js&#x27;,
-        &#x27;tasks/*.js&#x27;,
-        &#x27;test/**/*.js&#x27;
+        'Gruntfile.js',
+        'lib/*.js',
+        'tasks/*.js',
+        'test/**/*.js'
       ]
     },
 
     ngmin: {
       controllers: {
-        src: [&#x27;test/src/controllers/one.js&#x27;],
-        dest: &#x27;test/generated/controllers/one.js&#x27;
+        src: ['test/src/controllers/one.js'],
+        dest: 'test/generated/controllers/one.js'
       },
       directives: {
         expand: true,
-        cwd: &#x27;test/src&#x27;,
-        src: [&#x27;directives/**/*.js&#x27;],
-        dest: &#x27;test/generated&#x27;
+        cwd: 'test/src',
+        src: ['directives/**/*.js'],
+        dest: 'test/generated'
       }
     },
 
     mochacli: {
       options: {
-        require: [&#x27;should&#x27;],
+        require: ['should'],
         bail: true
       },
-      all: [&#x27;test/*.js&#x27;]
+      all: ['test/*.js']
     },
 
-    clean: [&#x27;test/generated&#x27;]
+    clean: ['test/generated']
   });
 
-  grunt.registerTask(&#x27;default&#x27;, [&#x27;jshint&#x27;]);
-  grunt.registerTask(&#x27;test&#x27;, [&#x27;clean&#x27;, &#x27;ngmin&#x27;, &#x27;mochacli&#x27;]);
+  grunt.registerTask('default', ['jshint']);
+  grunt.registerTask('test', ['clean', 'ngmin', 'mochacli']);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -144,3 +137,4 @@
     ]
 </div>
 </div>
+</body></html>
