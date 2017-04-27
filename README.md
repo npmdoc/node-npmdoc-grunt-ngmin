@@ -1,6 +1,6 @@
 # npmdoc-grunt-ngmin
 
-#### api documentation for  [grunt-ngmin (v0.0.3)](https://github.com/btford/grunt-ngmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-ngmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-ngmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin)
+#### basic api documentation for  [grunt-ngmin (v0.0.3)](https://github.com/btford/grunt-ngmin#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-ngmin.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-ngmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-ngmin)
 
 #### Grunt task for minifying AngularJS projects
 
@@ -71,7 +71,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "0.0.3"
+    "version": "0.0.3",
+    "bin": {}
 }
 ```
 
